@@ -1,13 +1,131 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+
+/*General configuration*/
+
+html{
+  background-color: black;
+  color: #FFF;
+  font-size: 25px;
+  font-family: "Vibur", sans-serif;
+  text-transform: uppercase;
+  font-weight: 400;
+  height:100vh;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/*button configuration*/
+
+button{
+	background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+a{
+  background:none;
+  color: inherit;
+  text-decoration: none;
+}
+.span-buttons{
+  cursor: pointer;
+  padding: 5px;
+  position:relative;
+  transition: transform 1s;
+}
+.span-buttons:hover{
+  transform: scale(1.2);
+}
+.updownbtn{
+  display:flex;
+  margin: 0 auto;
+  width: 100px;
+  align-self: center;
+  justify-content: center;
+  flex-wrap: nowrap;  
+}
+.updownwrapper{
+  display:flex;
+  margin: 0 auto;
+  width: 100px;
+  align-self: center;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+  position:relative;
+  top: -400px;
+}
+ 
+#app-container{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#app-background{
+  background-color:transparent;
+  z-index: -10;
+}
+#app{
+  align-items: center;
+  width: 500px;
+  height: 500px;
+
+}
+#pomodoro-clock-app{
+  text-align: center;
+  padding: 20px;
+  height: 600px;
+}
+.progress-ring{
+  position: relative;
+  z-index:1;
+}
+.progress-ring-circle{
+  stroke-dashoffset: 0;
+  transition: stroke-dashoffset 1s ease-in-out;
+  transform: rotate(-90deg);
+  transform-origin: 50% 50%;
+}
+#timer-panel{
+  position: relative;
+  top: -510px;
+  z-index: 1;
+  transform-origin: 50% 50%;
+}
+#buttons-panel{
+  position: relative;
+  top:-490px;
+  z-index: 1;
+}
+#background-circle{
+  z-index:-1;
+}
+#progress-circle{
+  z-index:1;
+}
+.background-ring{
+  position:relative;
+  z-index:-1;
+  top:-306px;
+}
+.colorbtn{
+  cursor:pointer;
+}
+
+#color-panel{
+  position: relative;
+  top: -400px;
+}
+#color-options{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+#break-manager{
+  margin-right:20px;
+}
+#session-manager{
+  margin-left: 20px;
 }
