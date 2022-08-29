@@ -1,7 +1,7 @@
 {
   "name": "test-app",
   "version": "0.1.0",
-  "homepage": "oluccaro.github.io/pomodoro-clock",
+  "homepage": "https://oluccaro.github.io/pomodoro-clock",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
