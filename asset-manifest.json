@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/oluccaro.github.io/pomodoro-clock/static/css/main.9ecedc6d.css",
-    "main.js": "/oluccaro.github.io/pomodoro-clock/static/js/main.8a70bc85.js",
-    "index.html": "/oluccaro.github.io/pomodoro-clock/index.html",
-    "main.9ecedc6d.css.map": "/oluccaro.github.io/pomodoro-clock/static/css/main.9ecedc6d.css.map",
-    "main.8a70bc85.js.map": "/oluccaro.github.io/pomodoro-clock/static/js/main.8a70bc85.js.map"
+    "main.css": "/pomodoro-clock/static/css/main.9ecedc6d.css",
+    "main.js": "/pomodoro-clock/static/js/main.8a70bc85.js",
+    "index.html": "/pomodoro-clock/index.html",
+    "main.9ecedc6d.css.map": "/pomodoro-clock/static/css/main.9ecedc6d.css.map",
+    "main.8a70bc85.js.map": "/pomodoro-clock/static/js/main.8a70bc85.js.map"
   },
   "entrypoints": [
     "static/css/main.9ecedc6d.css",
